@@ -1,0 +1,4 @@
+displayName = Calamity Flamethrowers
+author = YuH
+version = 3.2
+modReferences = CalamityMod

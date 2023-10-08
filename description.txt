@@ -1,0 +1,38 @@
+Adds a flamethrower for almost every Calamity boss that doesn't have one. Note: May not be completely balanced yet
+
+All flamethrowers have a 25% drop rate in Normal Mode and 33% in Expert Mode (except the sentinels which have a third of both due to sharing the same weapon)
+
+Current Weapon list:
+
+Desert Scorcher (Desert Scourge): Low range, high damage
+Toadstool Torcher (Crabulon): High range, high damage, bad fire rate
+Ichorthrower (Perforators): Pre-hardmode ichor, enough said
+Breath of Glacies (Cryogen): Insane fire rate and range, atrocious damage
+Ocean Scalder (Aquatic Scourge): Low range, high damage, with debuffs
+The Torch (Brimstone Ele): Atrocious fire rate, high damage, size, and range
+Aurora Flare (Aureus): Occasionally shoots a piercing astral jewel
+Tuna Breath Blaster (Leviathan): Occasionally fires chum and teeth
+Rook of Vengeance (Ravager): Fires in a spread and occasionally malfunctions which sends out flying scrap
+Meteor Shower (Astrum Deus): Fires 10 bouncy flames
+Serpent's Breath (Prof guardians): Fires 3 streams at once with two at a 45 degree angle from the main one
+Static Inferno (Dragonfolly): Occasionally fires explosive homing birbs
+Cosmic Firestorm (Any sentinel): Cycles between 3 different types of fire
+Remnant of Fate (Polterghast): Fires a second stream behind you that has high range
+Cambrian Crisper (Old Duke): Fires 20 streams at once at a short range
+Plasmilegion (Exo Mechs): Fires balls of exo fire that spew out exo flames in multiple directions
+Repentance (Supreme Calamitas): Secondary streams of fire rise up from the Underworld on use
+
+Changelog:
+3.2: 1.4.4 port
+3.1.2: Tml September update, fixed some flamethrowers not working properly
+3.1.1: Tml July update 
+3.1: Fixed a drop bug
+3.0: Ported to 1.4
+2.0: Added Plasmilegion and Repentance. Rebalanced a few post-Moon Lord flamethrowers. All flamethrowers now drop from Treasure Bags instead of directly from bosses in Expert Mode. Fixed Leviathan, Deus, and SG drops.
+1.01: Added icon
+1.0: Released
+
+Plans:
+Beginner flamethrower
+Yharon flamethrower
+Terminal flamethrower?

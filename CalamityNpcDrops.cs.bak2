@@ -1,0 +1,181 @@
+using System;
+using System.Collections.Generic;
+using Microsoft.Xna.Framework;
+using Terraria;
+using Terraria.DataStructures;
+using Terraria.ID;
+using Terraria.ModLoader;
+using CalamityFlamethrowers;
+using CalamityFlamethrowers.Items;
+
+namespace CalamityFlamethrowers
+{
+	public class CalamityNpcDrops : GlobalNPC
+	{
+		public override void OnKill(NPC npc)
+		{
+			Mod mod = ModLoader.GetMod("CalamityMod");
+			if (mod == null)
+			{
+				return;
+			}
+			if (!Main.expertMode)
+			{
+				if (npc.type == mod.NPCType("DesertScourgeHead"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<DesertScorcher>());
+					}
+				}
+				if (npc.type == mod.NPCType("CrabulonIdle"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<ToadstoolTorcher>());
+					}
+				}
+				if (npc.type == mod.NPCType("PerforatorHive"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<Ichorthrower>());
+					}
+				}
+				if (npc.type == mod.NPCType("Cryogen"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<BreathofGlacies>());
+					}
+				}
+				if (npc.type == mod.NPCType("AquaticScourgeHead"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<OceanScalder>());
+					}
+				}
+				if (npc.type == mod.NPCType("BrimstoneElemental"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<TheTorch>());
+					}
+				}
+				if (npc.type == mod.NPCType("AstrumAureus"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<AuroraFlare>());
+					}
+				}
+				if (npc.type == mod.NPCType("Leviathan") && !NPC.AnyNPCs(mod.NPCType("Siren")))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<TubaBreathBlaster>());
+					}
+				}
+				if (npc.type == mod.NPCType("Siren") && !NPC.AnyNPCs(mod.NPCType("Leviathan")))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<TubaBreathBlaster>());
+					}
+				}
+				if (npc.type == mod.NPCType("RavagerBody"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<RookofVengeance>());
+					}
+				}
+				if (npc.type == mod.NPCType("AstrumDeusHeadSpectral") && NPC.CountNPCS(mod.NPCType("AstrumDeusHeadSpectral")) == 1)
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<ConstellationDamnation>());
+					}
+				}
+				if (npc.type == mod.NPCType("ProfanedGuardianBoss"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<SerpentsBreath>());
+					}
+				}
+				if (npc.type == mod.NPCType("Bumblefuck"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<EffulgentZapper>());
+					}
+				}
+				if (npc.type == mod.NPCType("Polterghast"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<RemnantofFate>());
+					}
+				}
+				if (npc.type == mod.NPCType("Signus"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.08f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<CosmicFirestorm>());
+					}
+				}
+				if (npc.type == mod.NPCType("CeaselessVoid"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.08f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<CosmicFirestorm>());
+					}
+				}
+				if (npc.type == mod.NPCType("StormWeaverHead"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.08f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<CosmicFirestorm>());
+					}
+				}
+				if (npc.type == mod.NPCType("OldDuke"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<CambrianCrisper>());
+					}
+				}
+				if (npc.type == ModLoader.GetMod("CalamityMod").NPCType("SupremeCalamitas"))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<Repentance>());
+					}
+				}
+				if (npc.type == ModLoader.GetMod("CalamityMod").NPCType("Apollo") && !NPC.AnyNPCs(ModLoader.GetMod("CalamityMod").NPCType("AresBody")) && !NPC.AnyNPCs(ModLoader.GetMod("CalamityMod").NPCType("ThanatosHead")))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<Plasmalegion>());
+					}
+				}
+				if (npc.type == ModLoader.GetMod("CalamityMod").NPCType("AresBody") && !NPC.AnyNPCs(ModLoader.GetMod("CalamityMod").NPCType("Apollo")) && !NPC.AnyNPCs(ModLoader.GetMod("CalamityMod").NPCType("ThanatosHead")))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<Plasmalegion>());
+					}
+				}
+				if (npc.type == ModLoader.GetMod("CalamityMod").NPCType("ThanatosHead") && !NPC.AnyNPCs(ModLoader.GetMod("CalamityMod").NPCType("AresBody")) && !NPC.AnyNPCs(ModLoader.GetMod("CalamityMod").NPCType("Apollo")))
+				{
+					if (Utils.NextFloat(Main.rand) < 0.25f)
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<Plasmalegion>());
+					}
+				}
+			}
+		}
+	}
+}
