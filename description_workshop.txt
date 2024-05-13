@@ -24,8 +24,11 @@ Current Weapon list:
 [*] Repentance (Supreme Calamitas): Secondary streams of fire rise up from the Underworld on use
 [/olist]
 
+Discord for support: https://discord.gg/rtq3jRDsrA
+
 Changelog:
 [olist]
+[*] 3.3: Mod icon update
 [*] 3.2: 1.4.4 port
 [*] 3.1.2: Tml september update, fixed some flamethrowers not working properly
 [*] 3.1.1: Tml july update

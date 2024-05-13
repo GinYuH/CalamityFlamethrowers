@@ -22,7 +22,10 @@ Cambrian Crisper (Old Duke): Fires 20 streams at once at a short range
 Plasmilegion (Exo Mechs): Fires balls of exo fire that spew out exo flames in multiple directions
 Repentance (Supreme Calamitas): Secondary streams of fire rise up from the Underworld on use
 
+Discord for support: https://discord.gg/rtq3jRDsrA
+
 Changelog:
+3.3: Mod icon update
 3.2: 1.4.4 port
 3.1.2: Tml September update, fixed some flamethrowers not working properly
 3.1.1: Tml July update 
